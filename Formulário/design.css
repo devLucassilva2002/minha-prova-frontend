@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(181, 179, 179, 0.424);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.container{
+    margin-top: 2px;
+    background-color: white;
+    padding:  30px 40px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.445);
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+label{
+    display: block;
+    margin-top: 5px;
+    font-weight: 550;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+select{
+
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 6px;
+        font-size: 14px;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+
+    margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="reset"]{
+
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]{
+    background-color: rgba(0, 123, 255, 0.681);
+    color: white;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(0, 123, 255, 0.913);
+}
+
+input[type="reset"]{
+    background-color: rgba(0, 123, 255, 0.681);
+    color: white;
+    margin-bottom: 10px;
+}
+
+input[type="reset"]:hover{
+    background-color: rgba(0, 123, 255, 0.913);
+}
+

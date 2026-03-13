@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+   <div class="container">
+    <h1>Cadastro de usuários</h1>
+
+    <label>Nome completo</label>
+    <input type="text" name="nome"> <br><br>
+
+    <label>E-mail</label>
+    <input type="email" name="email"> <br><br>
+
+    <label>Senha</label>
+    <input type="password" name="senha"> <br><br>
+
+    <label>Confirme sua senha</label>
+    <input type="password" name="confirme_senha"> <br><br>
+
+    <label> Data de Nascimento</label>
+    <input type="date" name="data_Nascimento"><br><br>
+
+    <label>Sexo</label><br>
+    <input type="radio" name="sexo" value="Masculino">Masculino<br>
+    <input type="radio" name="sexo" value="Feminino">Feminino<br>
+    <input type="radio" name="sexo" value="Outros">Outros<br>
+
+    <label>Telefone</label>
+    <input type="tel" name="Telefone"><br><br>
+
+    <label>Estado</label>
+    <select name="Estado">
+    <option>AM</option>
+    <option>SP</option>
+    <option>RJ</option>
+    <option>AC</option>
+    <option>MG</option>
+    <option>TO</option>
+    </select><br><br>
+
+    <label>     
+        <input type="checkbox" name="aceite"> 
+        Aceito os Termos de uso
+    </label><br><br>
+
+    <input type="submit" name="Cadastrar">
+    <input type="reset" name="Limpar Formulário">
+
+   </div>
+    
+</body>
+</html>
